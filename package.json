@@ -1,0 +1,35 @@
+{
+  "name": "logentries-query-stream",
+  "version": "0.1.0",
+  "description": "Query and stream logs from Logentries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walling/logentries-query-stream.git"
+  },
+  "keywords": [
+    "logentries",
+    "stream",
+    "query",
+    "download",
+    "logs"
+  ],
+  "author": "Bjarke Walling <bwp@bwp.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walling/logentries-query-stream/issues"
+  },
+  "homepage": "https://github.com/walling/logentries-query-stream#readme",
+  "dependencies": {
+    "JSONStream": "^1.3.1",
+    "pump": "^1.0.2",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "endpoint": "^0.4.5",
+    "mitm": "^1.3.2"
+  }
+}
