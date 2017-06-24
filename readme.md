@@ -22,6 +22,8 @@ le({ filter : '/info/i' })
 - [Install](#install)
 - [Command line tool](#command-line-tool)
 - [API](#api)
+  - [le(query) -> Readable Object Stream](#lequery---readable-object-stream)
+  - [le.raw(query) -> Readable Stream](#lerawquery---readable-stream)
 - [Read More](#read-more)
 - [License](#license)
 
@@ -100,7 +102,7 @@ le.raw({
 }).pipe(fs.createWriteStream('example.log'));
 ```
 
-The query have the same options as the `le(query)` with the addition of one extra property:
+The query have the same options as the [`le(query)`](#lequery---readable-object-stream) with the addition of one extra property:
 
 - **format:** (String) - Either 'json' (default) or 'text' for line-based format
 
