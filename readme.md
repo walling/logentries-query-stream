@@ -1,5 +1,7 @@
 > Node module to stream logs from Logentries
 
+![logentries-query-stream](https://api.travis-ci.org/walling/logentries-query-stream.svg)
+
 This module enables you to query log records in Logentries emitted as a stream. Example:
 
 ```js
